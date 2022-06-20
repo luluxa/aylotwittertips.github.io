@@ -1,0 +1,55 @@
+twittertips.css {}
+
+body {
+    background-color: rgba(0, 204, 255, 0.219);
+    font-family: sans-serif;
+    font-size: 1.25rem;
+}
+
+header {
+    text-align: center;
+}
+
+.bothboards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    max-height: 100%;
+    
+    
+}
+
+.tips {
+    display: grid;
+    border: 1px solid rgb(146, 143, 143);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+   
+  
+    
+
+}
+
+
+.insideborder2 {
+    border: 1px solid rgb(230, 214, 3);
+    border-radius: 10px;
+    background-color: rgb(145, 129, 109);
+    margin:-15px;
+    
+}
+
+footer {
+    text-align: center;
+}
+
+ul {
+    
+    list-style-image: url(https://img.icons8.com/external-anggara-blue-anggara-putra/12/external-search-payment-anggara-blue-anggara-putra.png);
+}
+
+a {
+    color:rgb(139, 67, 67);
+}
+    
